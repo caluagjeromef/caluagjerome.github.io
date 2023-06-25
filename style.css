@@ -1,3 +1,9 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+}
+
 @media screen and (min-width:760px){
     .nav-item {
     line-height:60px;
@@ -69,6 +75,34 @@
     .aboutMe{
         text-align: left;
     }
+    .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    }
+    
+    .slide {
+    display: none;
+    width: 100%;
+    height: auto;
+    }
+    
+    .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    
+    .prev {
+    left: 10px;
+    }
+    
+    .next {
+    right: 10px;
+    }
 
 }
 .jerome{
@@ -91,11 +125,6 @@
     color: black;
     font-weight: bold;
 }
-*{
-    font-family: 'Times New Roman', Times, serif;
-    overflow-x: hidden;
-    color: rgb(255, 255, 255);
-}
 body{
     background-color: rgb(32, 24, 24);
 }
@@ -110,6 +139,10 @@ body{
 }
 .footer{
     background-color: rgb(121, 207, 121);
+}
+
+hr{
+    color:rgb(121, 207, 121) ;
 }
 
 /* div, img{
