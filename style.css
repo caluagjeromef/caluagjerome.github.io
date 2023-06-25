@@ -21,6 +21,12 @@
         height: 65px;
         overflow: hidden;
     }
+    .bg-img{
+        border: 3px solid rgb(58, 56, 56);
+        border-radius: 50%;
+        width: auto;
+        height: 525px;
+    }
     .video{
         width: 75%;
         border-radius: 20px;
@@ -58,10 +64,10 @@
     }
 
   }
-@media screen and (min-width:360px) and (max-width:759px){
+@media screen and (min-width:280px) and (max-width:759px){
     .video{
-        width: 350px;
-        height: 250px;
+        width: 100%;
+        height: auto;
         border-radius: 20px;
         border: 5px solid rgb(121, 207, 121);
     }
@@ -71,6 +77,12 @@
         top: 0;
         width: 100%;
         overflow: hidden;
+    }
+    .bg-img{
+        border: 3px solid rgb(58, 56, 56);
+        border-radius: 50%;
+        width: auto;
+        height: 400px;
     }
     .aboutMe{
         text-align: left;
@@ -131,12 +143,7 @@ body{
 .green{
     color:rgb(121, 207, 121);
 }
-.bg-img{
-    border: 3px solid rgb(58, 56, 56);
-    border-radius: 50%;
-    width: auto;
-    height: 525px;
-}
+
 .footer{
     background-color: rgb(121, 207, 121);
 }
