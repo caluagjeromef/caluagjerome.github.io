@@ -4,7 +4,7 @@
     color: rgb(255, 255, 255);
 }
 
-@media screen and (min-width:760px){
+@media screen and (min-width:768px){
     .nav-item {
     line-height:60px;
     text-transform: uppercase;
@@ -23,19 +23,20 @@
     }
     .bg-img{
         border: 3px solid rgb(58, 56, 56);
-        border-radius: 50%;
+        border-radius: 40% 10%;
         width: auto;
         height: 525px;
+        box-shadow: rgb(255, 255, 255) 0px 10px 10px 0px;
     }
     .video{
-        width: 75%;
+        width: 90%;
         border-radius: 20px;
         border: 5px solid rgb(121, 207, 121);
       }
 
     .slideshow-container {
     position: relative;
-    max-width: 75%;
+    max-width: 90%;
     margin: auto;
     }
     
@@ -64,7 +65,7 @@
     }
 
   }
-@media screen and (min-width:280px) and (max-width:759px){
+@media screen and (min-width:280px) and (max-width:767px){
     .video{
         width: 100%;
         height: auto;
@@ -142,10 +143,6 @@ body{
 }
 .green{
     color:rgb(121, 207, 121);
-}
-
-.footer{
-    background-color: rgb(121, 207, 121);
 }
 
 hr{
