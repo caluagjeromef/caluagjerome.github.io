@@ -81,9 +81,10 @@
     }
     .bg-img{
         border: 3px solid rgb(58, 56, 56);
-        border-radius: 50%;
+        border-radius: 40% 10%;
         width: auto;
         height: 400px;
+        box-shadow: rgb(255, 255, 255) 0px 10px 10px 0px;
     }
     .aboutMe{
         text-align: left;
@@ -130,9 +131,24 @@
     width: 70px;
     margin: 10px;
 }
+.cv{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(121, 207, 121);
+    border-radius: 10px;
+    padding: 10px;
+}
+.cv:hover{
+    border: 2px solid white;
+    background-color: white;
+    color:rgb(121, 207, 121);
+}
 .card{
     margin: 5px;
     border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .h6{
     color: black;
